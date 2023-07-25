@@ -1,0 +1,261 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+/* Estilos generales */
+.margenUnRem {
+  margin: 1rem;
+}
+
+.paddingUnRem {
+  padding: 1rem;
+}
+
+header,
+footer {
+  background-color: #25468d;
+}
+
+body {
+  background-color: rgba(37, 70, 141, 0.719);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: footer;
+}
+
+h1,
+h2,
+p,
+li,
+span,
+legend,
+label {
+  color: beige;
+}
+
+.nav-link {
+  color: beige;
+}
+
+/* ----------Estilos del html Index---------- */
+.contenedorInicio {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3.5fr 1fr 5.5rem;
+  grid-template-areas: "main"
+    "clientes"
+    "footer";
+}
+
+.mainInicio,
+.nuestrosClientesInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgIngenierosInicio {
+  width: 100%;
+}
+
+.nuestrosClientesInicio {
+  grid-area: clientes;
+  background-color: rgba(37, 70, 141, 0.582);
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logoCliente {
+  height: 2rem;
+  margin: 0.2rem;
+}
+
+/* ----------Estilos del html Nosotros---------- */
+.contenedorNosotros {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-template-rows: 1fr 5.5rem;
+  grid-template-areas: "main"
+    "footer";
+}
+
+.imgIngenieroNosotros {
+  width: 100%;
+}
+
+/* ----------Estilos del html Productos---------- */
+.contenedorProductos {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-template-rows: 2fr 5fr 5.5rem;
+  grid-template-areas: "main"
+    "videos"
+    "footer";
+}
+
+.contenedorVideosProductos {
+  grid-area: videos;
+}
+
+.videoProductos {
+  width: 100%;
+  height: 15rem;
+}
+
+/* ----------Estilos del html Servicios---------- */
+.contenedorServicios {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-template-rows: 1fr 5.5rem;
+  grid-template-areas: "main"
+    "footer";
+}
+
+/* ----------Estilos del html Contacto---------- */
+.contenedorContacto {
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-template-rows: 1fr 1fr 5.5rem;
+  grid-template-areas: "contacto"
+    "ubicacion"
+    "footer";
+}
+
+.mailContacto {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.consultaContacto {
+  width: 100%;
+  height: 10rem;
+}
+
+.mapaContacto {
+  width: 100%;
+  padding: 1rem;
+}
+
+.mailContacto,
+.consultaContacto,
+.botonContacto {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+/* ---------------------------------------------Media querie para tablet--------------------------------------------- */
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 1.2rem;
+  }
+
+  .titulos {
+    font-size: 2.5rem;
+  }
+
+  /* ----------Estilos del html Index---------- */
+  .logoCliente {
+    height: 3rem;
+    margin: .5rem;
+  }
+
+  /* ----------Estilos del html Productos---------- */
+  .contenedorProductos {
+    grid-template-rows: 1fr 5.5rem;
+    grid-template-columns: 1.2fr 2fr;
+    grid-template-areas: "main videos"
+      "footer footer";
+  }
+
+  .contenedorVideosProductos {
+    grid-area: videos;
+  }
+
+  .videoProductos {
+    width: 60vw;
+    height: 18rem;
+  }
+
+  /* ----------Estilos del html Contacto---------- */
+  .contenedorContacto {
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 5.5rem;
+    grid-template-areas: "contacto ubicacion"
+      "footer footer";
+  }
+
+  .mapaContacto {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .mainContacto {
+    grid-area: contacto;
+  }
+
+  .ubicacionContacto {
+    grid-area: ubicacion;
+  }
+
+  .consultaContacto {
+    width: 100%;
+    height: 25.6vh;
+  }
+
+  .inputEmailContacto {
+    margin-left: 1.5rem;
+    width: 20rem;
+  }
+
+  .contenedorContacto .ubicacionContacto h2 {
+    font-size: 2.4rem;
+  }
+}
+
+/* ---------------------------------------------Media querie para desktop--------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  /* ----------Estilos del html Index---------- */
+  .logoCliente {
+    height: 4rem;
+    margin: 1rem;
+  }
+
+  .logoCliente:hover {
+    transform: scale(1.5);
+  }
+
+  /* --------Estilos del html Productos-------- */
+  .videoProductos {
+    height: 25rem;
+  }
+
+  /* --------Estilos del html Contacto--------- */
+  .mapaContacto {
+    height: 75vh;
+  }
+
+  .consultaContacto {
+    height: 15rem;
+  }
+}
