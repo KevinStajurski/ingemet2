@@ -6,23 +6,21 @@
 }
 
 /* ----------Estilos Generales---------- */
-
-.paddingUnRem {
-    padding: 1rem;
-
-}
-
-.marginUnRem {
-    margin: 1rem;
-}
-
 header,
 footer {
     background-color: #25468d;
 }
 
-body {
+main {
     background-color: rgba(37, 70, 141, 0.719);
+    flex: auto;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 h1,
@@ -37,113 +35,49 @@ label,
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.2rem;
-    font-size: 0.9rem;
+    text-align: center;
 }
 
 /* ----------Estilos del html Index---------- */
+.logosClientes{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
 
-.mainIndex {
+.nuestrosClientes{
+    text-align: center;
+    padding: 1rem;
+}
+
+.mainIndex{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-
-.nuestrosClientes {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.logosClientes {
-    display: flex;
-    justify-content: center;
-}
-
-.logosClientes img:hover {
-    scale: 1.2;
-}
-
-.imgIndex {
-    width: 60rem;
 }
 
 /* ----------Estilos del html Nosotros---------- */
 
-.mainNosotros {
+.mainNosotros{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.imgNosotros {
-    width: 50rem;
 }
 
 /* ----------Estilos del html Productos---------- */
 
-.mainProductos {
+.mainProductos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 75vh;
 }
 
-.divVideosProductos {
-    width: 560px;
+.videosProductos{
+    width: 35rem;
 }
 
-.tituloNuestrosProductos {
-    font-size: 2rem;
-}
-
-/* ----------Estilos del html Servicios---------- */
-
-.textoServicios,
-.tituloServicios {
-    color: white;
-    text-shadow: 4px 4px 2px black;
-    font-weight: bold;
-    font-size: 3rem;
-}
-
-.textoServicios {
-    font-size: 1.6rem;
-}
-
-/* ----------Estilos del html Contacto---------- */
-
-.mainContacto {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
-    height: 75vh;
-}
-
-.inputConsulta {
-    width: 20rem;
-    height: 15rem;
-}
-
-.inputEmail {
-    width: 20rem;
-}
-
-.mainContacto form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-}
-
-.mainContacto iframe{
-    width: 500px;
-    height: 370px;
-}
-
-.mainContacto h1, .mainContacto h2{
-    font-size: 3rem;
+.mainProductos div {
+    flex: auto;
+    padding: 2rem;
 }
