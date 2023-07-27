@@ -132,7 +132,8 @@ footer {
     padding: 2rem;
 }
 
-.contactoContacto, .formularioContacto{
+.contactoContacto,
+.formularioContacto {
     display: flex;
     flex-direction: column;
     justify-items: center;
