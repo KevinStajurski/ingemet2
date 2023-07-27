@@ -130,10 +130,12 @@ footer {
 
 .segundoDivProductos {
     flex: 70%;
+    display: flex;
+    justify-content: center;
 }
 
-.videoProductos{
-    width: 100%;
+.videoProductos {
+    width: 80%;
 }
 
 /* ----------Estilos del html Servicios---------- */
@@ -157,13 +159,30 @@ footer {
 
 .mainContacto {
     display: flex;
-    justify-content: space-between;
+}
+
+.contactoContacto {
+    flex: 50%;
     padding: 2rem;
 }
 
-.contactoContacto,
+.ubicacionContacto {
+    flex: 50%;
+    padding: 2rem;
+}
+
 .formularioContacto {
     display: flex;
     flex-direction: column;
     justify-items: center;
+    gap: 1rem;
+}
+
+.mapaContacto{
+    width: 100%;
+    height: 80%;
+}
+
+.inputConsulta{
+    height: 9.5rem;
 }
