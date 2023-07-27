@@ -30,7 +30,7 @@ footer {
     text-align: center;
 }
 
-/* ----------Estilos del html Index---------- */
+/* ----------------Grid Layout---------------- */
 
 body {
     height: 100vh;
@@ -56,27 +56,50 @@ footer {
     grid-area: footer;
 }
 
+/* ----------Estilos del html Index---------- */
+
 .logosClientes {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem;
+}
+
+.logosClientes a:hover {
+    scale: 1.2;
 }
 
 .nuestrosClientes {
     text-align: center;
-    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .mainIndex {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.imgIngenieros {
+/* .imgIngenieros {
     width: 100%;
     padding: 2rem;
+} */
+
+.primerDivIndex {
+    background-image: url("../img/ingenieros.jpg");
+    flex: 90%;
+    width: 100vw;
+    text-align: center;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.segundoDivIndex {
+    padding: 0.8rem;
 }
 
 /* ----------Estilos del html Nosotros---------- */
@@ -96,12 +119,21 @@ footer {
 
 .mainProductos {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    gap: 2rem;
+    padding: 2rem;
 }
 
-.videosProductos {
-    width: 35rem;
+.primerDivProductos {
+    flex: 30%;
+}
+
+.segundoDivProductos {
+    flex: 70%;
+}
+
+.videoProductos{
+    width: 100%;
 }
 
 /* ----------Estilos del html Servicios---------- */
@@ -120,9 +152,6 @@ footer {
 .textoServicios {
     font-size: 1.5rem;
 }
-
-/* ----------Estilos del html Servicios---------- */
-
 
 /* ----------Estilos del html Contacto---------- */
 
