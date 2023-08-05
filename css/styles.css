@@ -34,7 +34,6 @@ footer {
 
 body {
     height: 100vh;
-    width: 100vw;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3.5rem 1fr 4.7rem;
@@ -76,18 +75,13 @@ footer {
 .mainIndex {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
-
-/* .imgIngenieros {
-    width: 100%;
-    padding: 2rem;
-} */
 
 .primerDivIndex {
     background-image: url("../img/ingenieros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     flex: 90%;
-    width: 100vw;
     text-align: center;
     text-shadow:
         1px 1px 2px black,
@@ -131,7 +125,7 @@ footer {
 .segundoDivProductos {
     flex: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .videoProductos {
@@ -178,11 +172,11 @@ footer {
     gap: 1rem;
 }
 
-.mapaContacto{
+.mapaContacto {
     width: 100%;
     height: 80%;
 }
 
-.inputConsulta{
+.inputConsulta {
     height: 9.5rem;
 }
