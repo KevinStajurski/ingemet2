@@ -80,7 +80,7 @@ footer {
 .primerDivIndex {
     background-image: url("../img/ingenieros.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     flex: 90%;
     text-align: center;
     text-shadow:
@@ -179,4 +179,22 @@ footer {
 
 .inputConsulta {
     height: 9.5rem;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+
+    header, main, footer{
+        width: 100vw;
+    }
+
+    .mainProductos {
+        flex-direction: column;
+    }
+
+    .mainContacto {
+        flex-direction: column;
+    }
+
 }
