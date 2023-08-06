@@ -183,10 +183,22 @@ footer {
 
 /* media queries */
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 
-    header, main, footer{
-        width: 100vw;
+    body {
+        grid-template-rows: 3.5rem 1fr 6.2rem;
+    }
+
+    .logosClientes a img {
+        width: 90%;
+    }
+
+    .primerContacto {
+        display: block;
+    }
+
+    .separador {
+        display: none;
     }
 
     .mainProductos {
@@ -195,6 +207,23 @@ footer {
 
     .mainContacto {
         flex-direction: column;
+    }
+
+    .segundoDivProductos iframe {
+        width: 100%;
+        height: 50%;
+    }
+
+    .segundoDivProductos {
+        justify-content: center;
+    }
+
+    .nav-link{
+        z-index: 0;
+    }
+
+    .d-block{
+        z-index: 100;
     }
 
 }
