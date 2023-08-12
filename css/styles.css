@@ -24,11 +24,11 @@ footer {
     text-align: center;
 }
 
-.titulo{
+.titulo {
     font-size: 2rem;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -198,8 +198,12 @@ footer {
         height: 100%;
     }
 
-    .segundoDivProductos {
-        justify-content: center;
+    .ubicacionContacto iframe {
+        width: 90vw;
+    }
+
+    .primerDivIndex {
+        background-size: 170%;
     }
 
 }
