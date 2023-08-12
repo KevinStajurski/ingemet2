@@ -24,6 +24,14 @@ footer {
     text-align: center;
 }
 
+.titulo{
+    font-size: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
 /* ----------------Grid Layout---------------- */
 
 body {
@@ -111,9 +119,7 @@ footer {
     align-items: center;
 }
 
-.videoProductos {
-    max-width: 100%;
-}
+
 
 /* ----------Estilos del html Servicios---------- */
 
@@ -155,18 +161,13 @@ footer {
     gap: 1rem;
 }
 
-.mapaContacto {
-    width: 100%;
-    height: 80%;
-}
-
 .inputConsulta {
-    height: 9.5rem;
+    height: 17.7rem;
 }
 
 /* media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
 
     body {
         grid-template-rows: auto 1fr 6.2rem;
