@@ -220,9 +220,13 @@ textarea{
         flex-direction: column;
     }
 
+    .primerDivProductos{
+        padding: 2rem;
+    }
+
     .segundoDivProductos{
         width: auto;
-        margin-bottom: 1rem;
+        padding: 2rem;
     }
 
     .segundoDivProductos iframe {
