@@ -228,7 +228,7 @@ textarea{
 
     .mainContacto {
         flex-direction: column;
-        width: auto;
+        width: 100vw;
     }
 
     .ubicacionContacto iframe {
