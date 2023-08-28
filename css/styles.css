@@ -85,6 +85,7 @@ footer {
     background-image: url("../img/ingenieros.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position:top;
     flex: 90%;
     text-align: center;
     text-shadow:
