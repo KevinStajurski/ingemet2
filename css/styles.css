@@ -188,6 +188,13 @@ textarea{
         display: block;
     }
 
+    .primerDivIndex {
+        background-image: url("../img/ingenieros-small.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+
     .logosClientes a img {
         width: 90%;
     }
