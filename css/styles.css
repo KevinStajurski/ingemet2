@@ -179,10 +179,6 @@ textarea{
 
 @media screen and (max-width: 1199px) {
 
-    body {
-        grid-template-rows: auto 1fr auto;
-    }
-
     footer span span{
         display: none;
     }
@@ -197,6 +193,11 @@ textarea{
 
     .mainProductos {
         flex-direction: column;
+    }
+
+    .segundoDivProductos{
+        width: auto;
+        margin-bottom: 1rem;
     }
 
     .mainContacto {
