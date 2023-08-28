@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* ----------Estilos Generales---------- */
+/* Estilos Generales */
 
 body {
     color: beige;
@@ -34,7 +34,7 @@ footer span br {
     font-weight: bold;
 }
 
-/* ----------------Grid Layout---------------- */
+/* Grid Layout */
 
 body {
     height: 100vh;
@@ -59,7 +59,7 @@ footer {
     grid-area: footer;
 }
 
-/* ----------Estilos del html Index---------- */
+/* Estilos del html Index */
 
 .logosClientes {
     display: flex;
@@ -100,9 +100,9 @@ footer {
     padding: 0.8rem;
 }
 
-/* ----------Estilos del html Nosotros---------- */
+/* Estilos del html Nosotros */
 
-.mainNosotros {
+/* .mainNosotros {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,9 +111,9 @@ footer {
 .imgIngenieroNosotros {
     width: 100%;
     padding: 2rem;
-}
+} */
 
-/* ----------Estilos del html Productos---------- */
+/* Estilos del html Productos */
 
 .mainProductos {
     display: flex;
@@ -121,9 +121,7 @@ footer {
     align-items: center;
 }
 
-
-
-/* ----------Estilos del html Servicios---------- */
+/* Estilos del html Servicios */
 
 .tituloServicios,
 .textoServicios {
@@ -140,7 +138,13 @@ footer {
     font-size: 1.5rem;
 }
 
-/* ----------Estilos del html Contacto---------- */
+.mainServicios{
+    width: 80vw;
+    justify-self: center;
+    padding: 1rem;
+}
+
+/* Estilos del html Contacto */
 
 .mainContacto {
     display: flex;
@@ -167,7 +171,11 @@ footer {
     height: 17.7rem;
 }
 
-/* media queries */
+textarea{
+    resize: none;
+}
+
+/* Media queries */
 
 @media screen and (max-width: 1199px) {
 
