@@ -84,7 +84,7 @@ footer {
 .primerDivIndex {
     background-image: url("../img/ingenieros.jpg");
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     flex: 90%;
     text-align: center;
     text-shadow:
@@ -202,6 +202,7 @@ textarea{
 
     .mainContacto {
         flex-direction: column;
+        width: auto;
     }
 
     .segundoDivProductos iframe {
