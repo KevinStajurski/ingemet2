@@ -176,9 +176,11 @@ textarea{
     resize: none;
 }
 
-/* Media queries */
+/* Media queries*/
 
 @media screen and (max-width: 1199px) {
+
+    /* Estilos generales celulares */
 
     footer span span{
         display: none;
@@ -187,6 +189,8 @@ textarea{
     footer span br{
         display: block;
     }
+
+    /* Estilos index celulares */
 
     .primerDivIndex {
         background-image: url("../img/ingenieros-small.png");
@@ -198,6 +202,8 @@ textarea{
         width: 90%;
     }
 
+    /* Estilos productos celulares */
+
     .mainProductos {
         flex-direction: column;
     }
@@ -207,18 +213,22 @@ textarea{
         margin-bottom: 1rem;
     }
 
+    .segundoDivProductos iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Estilos servicios celulares */
+
     .mainServicios{
         width: 100vw;
     }
 
+    /* Estilos contacto celulares */
+
     .mainContacto {
         flex-direction: column;
         width: auto;
-    }
-
-    .segundoDivProductos iframe {
-        width: 100%;
-        height: 100%;
     }
 
     .ubicacionContacto iframe {
