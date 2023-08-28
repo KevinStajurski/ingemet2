@@ -207,6 +207,10 @@ textarea{
         margin-bottom: 1rem;
     }
 
+    .mainServicios{
+        width: 100vw;
+    }
+
     .mainContacto {
         flex-direction: column;
         width: auto;
